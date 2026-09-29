@@ -1,0 +1,73 @@
+id: egofun3d
+name: EgoFun3D
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- Simon Fraser University (3D Vision Lab)
+description: 中等规模（271个视频），交互3D对象建模对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 271个第一视角视频，含配对3D几何、分割、铰接和功能模板标注
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/3dlg-hcvc/EgoFun3D
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2604.11038
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/3dlg-hcvc/EgoFun3D
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: EgoFun3D
+  发布/开源时间: 2026/04
+  提出机构: Simon Fraser University (3D Vision Lab)
+  论文/技术报告链接: https://arxiv.org/abs/2604.11038
+  数据开源链接: https://huggingface.co/datasets/3dlg-hcvc/EgoFun3D
+  数据来源: 真实第一视角视频中交互式3D对象的建模数据
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 使用功能模板从第一视角视频建模交互式3D对象
+  数据轨迹数/平均时长/总时长: 271个第一视角视频，含配对3D几何、分割、铰接和功能模板标注
+  使用该数据集的典型模型: EgoFun3D交互对象建模模型
+  数据格式: MP4视频+JSON（交互式3D对象建模，271个视频）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模（271个视频），交互3D对象建模对齐；亦可用于预训练

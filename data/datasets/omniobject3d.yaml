@@ -1,0 +1,73 @@
+id: omniobject3d
+name: OmniObject3D
+name_zh: ''
+full_name: ''
+year: 2023
+organization:
+- Tong Wu, Jiarui Zhang, Xiao Fu, Yuxin Wang, Jiawei Ren, Liang Pan, Wenqian Wu, Jiaqi Wang, Chen Qian等 (清华大学/港中文等)
+description: 大规模真实3D扫描（大词汇量3D对象），真实世界3D感知与重建预训练
+source:
+- synthetic
+modality:
+- custom
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+- perception
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 大规模真实3D对象扫描数据
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/papers/2301.07525
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2301.07525
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/papers/2301.07525
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: OmniObject3D
+  发布/开源时间: 2023/01
+  提出机构: Tong Wu, Jiarui Zhang, Xiao Fu, Yuxin Wang, Jiawei Ren, Liang Pan, Wenqian Wu, Jiaqi Wang, Chen Qian等 (清华大学/港中文等)
+  论文/技术报告链接: https://arxiv.org/abs/2301.07525
+  数据开源链接: https://huggingface.co/papers/2301.07525
+  数据来源: 真实世界扫描+重建的大词汇量3D对象数据集
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 大词汇量3D对象数据集，用于真实感知、重建和生成
+  数据轨迹数/平均时长/总时长: 大规模真实3D对象扫描数据
+  使用该数据集的典型模型: OmniObject3D相关感知模型
+  数据格式: 3D扫描数据（真实世界大词汇量3D对象）
+  数据用途分类: 预训练数据
+  分类备注: 大规模真实3D扫描（大词汇量3D对象），真实世界3D感知与重建预训练

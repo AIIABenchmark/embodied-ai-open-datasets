@@ -1,0 +1,75 @@
+id: omnivitac
+name: OmniViTac
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 它石智航、新加坡国立大学、复旦大学、中科院自动化所、清华大学、中关村学院、北京航空航天大学
+description: 大规模视触觉数据（21,879条轨迹），稀缺模态，可用于预训练视触觉通用表示；亦可用于后训练对齐与微调
+source:
+- real_world
+modality:
+- trajectory
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- industrial
+- laboratory
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 大规模视触觉数据集，21879条轨迹，按每条轨迹平均时长数十秒计算，总时长在数百小时
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/tars-robotics/OmniVitac
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2603.19201
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/tars-robotics/OmniVitac
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: OmniViTac
+  发布/开源时间: 2026/03
+  提出机构: 它石智航、新加坡国立大学、复旦大学、中科院自动化所、清华大学、中关村学院、北京航空航天大学
+  论文/技术报告链接: https://arxiv.org/abs/2603.19201
+  数据开源链接: https://huggingface.co/datasets/tars-robotics/OmniVitac
+  数据来源: 遥操作+手持采集
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机/实采数据—UMI
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 厨房、实验室、工厂
+  数据轨迹数/平均时长/总时长: 大规模视触觉数据集，21879条轨迹，按每条轨迹平均时长数十秒计算，总时长在数百小时
+  使用该数据集的典型模型: OmniVTA
+  数据格式: HuggingFace LeRobot格式（视触觉，21,879条轨迹）
+  数据用途分类: 预训练数据
+  分类备注: 大规模视触觉数据（21,879条轨迹），稀缺模态，可用于预训练视触觉通用表示；亦可用于后训练对齐与微调

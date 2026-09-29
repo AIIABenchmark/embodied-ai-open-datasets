@@ -1,0 +1,168 @@
+# Datasets by Data Source
+
+> Automatically generated.
+
+## Human Centric
+
+- **World In Your Hands**
+- 10kh RealOmniOpen Dataset
+- ACE-Data-0
+- AGIBOT WORLD 2026
+- BONES-SEED
+- CS2-10k
+- Ego-1K
+- Ego2Robot
+- EgoDex
+- EgoEMG
+- EgoExOR
+- EgoFun3D
+- EgoLive
+- EgoSPT
+- EgoScale
+- EgoSteer
+- EgoTactile
+- EgoTouch
+- EgoTraj
+- EgoVerse
+- EgoVid-5M
+- EgoXtreme
+- Egocentric-10K
+- FastUMI Dataset
+- H-Tac（样例公开）
+- HD-EPIC
+- HumanCLAW
+- HumanEgo
+- IndEgo
+- MobileEgo Anywhere
+- OmniContact
+- Open-AoE
+- OpenEgo
+- PH2D
+- RekaDaily-10k
+- World In YourHands
+- Xperience-10M
+
+## Real World
+
+- **World In Your Hands**
+- 10kh RealOmniOpen Dataset
+- ABC-130K
+- ACE-Data-0
+- AGIBOT WORLD 2026
+- Aist-Bimanual
+- BONES-SEED
+- BridgeData V2
+- CALVIN
+- CS2-10k
+- DECO-50
+- DROID
+- Daimon-Infinity
+- Data Scaling Laws
+- Deform360
+- DexUMI
+- DexWild
+- Dexora
+- Dynamic Object Manipulation（DOM）
+- Ego-1K
+- Ego2Robot
+- EgoDex
+- EgoEMG
+- EgoExOR
+- EgoFun3D
+- EgoLive
+- EgoMimic
+- EgoSPT
+- EgoScale
+- EgoSteer
+- EgoTactile
+- EgoTouch
+- EgoTraj
+- EgoVerse
+- EgoVid-5M
+- EgoXtreme
+- Egocentric-10K
+- FastUMI Dataset
+- FastUMI-100K
+- FreeTacMan
+- GR00T-N1.7-AppleToPlate
+- Galaxea Open-World Dataset
+- H-Tac（样例公开）
+- HD-EPIC
+- HRDexDB
+- HumanCLAW
+- HumanEgo
+- Humanoid Everyday
+- Hy-Embodied-0.5-VLA-Data
+- IndEgo
+- LEGATO
+- LIBERO
+- ManipForce
+- MobileEgo Anywhere
+- MolmoAct2-BimanualYAM
+- NVIDIA Kitchen Demos
+- OmniContact
+- OmniViTac
+- Open X-Embodiment
+- Open-AoE
+- Open-H-Embodiment
+- OpenEgo
+- OpenLET
+- OpenNeoData
+- PH2D
+- RCT
+- RH20T
+- RT-1 Dataset
+- RekaDaily-10k
+- RoboCOIN
+- RoboMIND
+- T-Rex Dataset
+- Touch in the Wild
+- UMI-3D
+- UnifoLM-WBT-Dataset
+- Unitree UnifoLM-WBT
+- Universal Manipulation Interface
+- World In YourHands
+- Xperience-10M
+- exUMI
+- 白虎-VTouch
+
+## Synthetic
+
+- 3D-FRONT
+- ABO
+- ArtVIP
+- BEHAVIOR-1K Challenge Demos
+- CALVIN
+- DexMimicGen
+- DexonomySim
+- Dynamic Object Manipulation（DOM）
+- GRAIL
+- HSSD-200
+- InternData-A1
+- InternData-M1
+- InternData-N1
+- LIBERO
+- LIBERO-Para
+- ManiSkill3 Demonstrations
+- ManiTwin-100K（早期公开版）
+- MansionWorld
+- MimicGen
+- Objaverse
+- Objaverse-XL
+- OmniAction
+- OmniObject3D
+- Open6DOR V2
+- PhysInOne
+- PhysX-Mobility
+- PhysXVerse
+- PhysicalAI WorldModel Synthetic Embodied Robot Scenes
+- ProcTHOR
+- RoboCasa365
+- RoboInter-Data
+- RoboTwin 2.0
+- RoboVerse
+- SAGE-10k
+- SAGE-3D VLN Data
+- ScanNet++
+- TableVerse-100K
+- WANDA

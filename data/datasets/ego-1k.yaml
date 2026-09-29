@@ -1,0 +1,73 @@
+id: ego-1k
+name: Ego-1K
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- Meta Reality Labs
+description: 中等规模（2.3小时/490,966帧/17.5TB），多机位3D/4D重建对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- custom
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 956段视频、约2.3小时、490,966帧、5,891,592幅图像；约17.5 TB
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/facebook/ego-1k
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2603.13741
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/facebook/ego-1k
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: Ego-1K
+  发布/开源时间: 2026/03
+  提出机构: Meta Reality Labs
+  论文/技术报告链接: https://arxiv.org/abs/2603.13741
+  数据开源链接: https://huggingface.co/datasets/facebook/ego-1k
+  数据来源: 12机位同步头戴式多视角真实采集；Hugging Face公开
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 近场手部运动与手物交互、动态3D/4D重建、立体匹配与新视角合成
+  数据轨迹数/平均时长/总时长: 956段视频、约2.3小时、490,966帧、5,891,592幅图像；约17.5 TB
+  使用该数据集的典型模型: 3DGS、4D动态新视角合成基准
+  数据格式: HuggingFace Parquet（12机位同步头戴多视角，约17.5TB，490,966帧）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模（2.3小时/490,966帧/17.5TB），多机位3D/4D重建对齐；亦可用于预训练

@@ -1,0 +1,25 @@
+name: Report an Error or Broken Link
+description: Report incorrect metadata, duplicate records or broken links.
+title: "[Error] "
+labels: ["dataset", "correction"]
+body:
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset ID
+      placeholder: "e.g. droid"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: "Describe the incorrect information, broken link or duplication."
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Evidence / authoritative source URL

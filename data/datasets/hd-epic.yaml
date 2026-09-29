@@ -1,0 +1,78 @@
+id: hd-epic
+name: HD-EPIC
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- Toby Perrett, Ahmad Darkhalil, Saptarshi Sinha, Omar Emara, Sam Pollard, Kranti Kumar Parida, Kaiting Liu, Prajwal Gatti,
+  Siddhant Bansal, Kevin Flanagan, Jacob Chalk, Zhifan Zhu, Rhodri Guerrier, Fahd Abdelazim, Bin Zhu, Davide Moltisanti, Michael
+  Wray, Hazel Doughty, Dima Damen (University of Bristol)
+description: 中等规模第一视角数据，手-物交互理解对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+- perception
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 需进一步确认
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://hd-epic.github.io/
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2502.04144
+  project: ''
+  github: ''
+  dataset: https://hd-epic.github.io/
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: HD-EPIC
+  发布/开源时间: 2025/02
+  提出机构: Toby Perrett, Ahmad Darkhalil, Saptarshi Sinha, Omar Emara, Sam Pollard, Kranti Kumar Parida, Kaiting Liu, Prajwal
+    Gatti, Siddhant Bansal, Kevin Flanagan, Jacob Chalk, Zhifan Zhu, Rhodri Guerrier, Fahd Abdelazim, Bin Zhu, Davide Moltisanti,
+    Michael Wray, Hazel Doughty, Dima Damen (University of Bristol)
+  论文/技术报告链接: https://arxiv.org/abs/2502.04144
+  数据开源链接: https://hd-epic.github.io/
+  数据来源: 真实世界高细节第一视角视频采集
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 高细节第一视角视频数据集，支持细粒度手-物交互理解
+  数据轨迹数/平均时长/总时长: 需进一步确认
+  使用该数据集的典型模型: HD-EPIC视频理解模型
+  数据格式: MP4视频+JSON（高细节第一视角，手-物交互）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模第一视角数据，手-物交互理解对齐；亦可用于预训练

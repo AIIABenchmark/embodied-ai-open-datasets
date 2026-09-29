@@ -1,0 +1,75 @@
+id: mansionworld
+name: MansionWorld
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- EgoHTR
+description: 大规模合成环境（1,000+建筑/10,000+房间），AI2-THOR生成，可用于预训练导航与空间推理；亦可用于后训练
+source:
+- synthetic
+modality:
+- custom
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- long_horizon
+- navigation
+- generalist
+- spatial_reasoning
+environment:
+- virtual
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,000+栋2–10层建筑、10,000+房间，覆盖住宅、办公与公共建筑
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/superbigsaw/MansionWorld
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2603.11554
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/superbigsaw/MansionWorld
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: MansionWorld
+  发布/开源时间: 2026/03
+  提出机构: EgoHTR
+  论文/技术报告链接: https://arxiv.org/abs/2603.11554
+  数据开源链接: https://huggingface.co/datasets/superbigsaw/MansionWorld
+  数据来源: 基于AI2-THOR生成可交互的多楼层室内仿真环境
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 跨楼层导航、长程任务、空间推理与开放词汇场景编辑
+  数据轨迹数/平均时长/总时长: 1,000+栋2–10层建筑、10,000+房间，覆盖住宅、办公与公共建筑
+  使用该数据集的典型模型: 具身导航代理、VLN与长程规划模型
+  数据格式: HuggingFace JSON（AI2-THOR生成可交互多楼层室内环境）
+  数据用途分类: 预训练数据
+  分类备注: 大规模合成环境（1,000+建筑/10,000+房间），AI2-THOR生成，可用于预训练导航与空间推理；亦可用于后训练

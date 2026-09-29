@@ -1,0 +1,90 @@
+# Copy this file to:
+# data/datasets/<dataset-id>.yaml
+
+id: example-dataset
+
+name: Example Dataset
+
+name_zh: 示例数据集
+
+full_name: ""
+
+year: 2026
+
+organization:
+  - ""
+
+description: >
+  Brief factual description of the dataset, including what is collected,
+  what scenarios/tasks it covers, and why it is relevant to Embodied AI.
+
+source:
+  - real_world
+
+modality:
+  - rgb
+  - language
+  - trajectory
+  - action
+
+embodiment:
+  type:
+    - manipulator
+  platforms:
+    - unspecified
+
+tasks:
+  - manipulation
+
+environment:
+  - laboratory
+
+application:
+  - pretraining
+  - task_specific_finetuning
+
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: ""
+
+data_format:
+  - custom
+
+language:
+  - en
+
+access:
+  availability: open
+  registration_required: false
+  download: ""
+  access_notes: ""
+
+license:
+  type: unknown
+  text: ""
+  url: ""
+
+links:
+  paper: ""
+  project: ""
+  github: ""
+  dataset: ""
+  documentation: ""
+
+tags:
+  - ""
+
+status:
+  active: true
+  version: ""
+  last_verified: 2026-09-26
+
+citation: ""
+
+notes: ""

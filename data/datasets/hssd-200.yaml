@@ -1,0 +1,73 @@
+id: hssd-200
+name: HSSD-200
+name_zh: ''
+full_name: ''
+year: 2023
+organization:
+- Khanna et al. (Meta AI / FAIR / 相关机构)
+description: 大规模合成场景（200个高保真3D室内场景/18,656个3D对象），Habitat导航与具身AI预训练
+source:
+- synthetic
+modality:
+- custom
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- navigation
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 200个场景，18,656个3D对象资产
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/papers/2306.11290
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/html/2306.11290v1
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/papers/2306.11290
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: HSSD-200
+  发布/开源时间: 2023/06
+  提出机构: Khanna et al. (Meta AI / FAIR / 相关机构)
+  论文/技术报告链接: https://arxiv.org/html/2306.11290v1
+  数据开源链接: https://huggingface.co/papers/2306.11290
+  数据来源: 基于真实户型图合成的200个高保真3D室内场景
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: Habitat合成场景数据集，用于ObjectGoal导航和具身AI研究
+  数据轨迹数/平均时长/总时长: 200个场景，18,656个3D对象资产
+  使用该数据集的典型模型: HSSD导航模型
+  数据格式: Habitat场景格式（200个高保真3D室内场景，18,656个3D对象）
+  数据用途分类: 预训练数据
+  分类备注: 大规模合成场景（200个高保真3D室内场景/18,656个3D对象），Habitat导航与具身AI预训练

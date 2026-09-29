@@ -1,0 +1,74 @@
+id: bones-seed
+name: BONES-SEED
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- BONES Studio
+description: 大规模动作数据（142,220段/288小时/522表演者），全身控制与文本到动作预训练
+source:
+- real_world
+- human_centric
+modality:
+- language
+- action
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 142,220段动作序列，约288小时、522名表演者；每段最多6条自然语言描述
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/bones-studio/seed
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://bones.studio/datasets/seed
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/bones-studio/seed
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: BONES-SEED
+  发布/开源时间: 2026/03
+  提出机构: BONES Studio
+  论文/技术报告链接: https://bones.studio/datasets/seed
+  数据开源链接: https://huggingface.co/datasets/bones-studio/seed
+  数据来源: 高精度光学动作捕捉；提供SOMA与Unitree G1格式、语言描述和时序分段
+  数据来源分类（互联网、真实采集、合成）: 实采数据—穿戴式
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 人形机器人移动、日常动作、物体交互、舞蹈与全身控制
+  数据轨迹数/平均时长/总时长: 142,220段动作序列，约288小时、522名表演者；每段最多6条自然语言描述
+  使用该数据集的典型模型: SONIC、Kimodo、全身控制与文本到动作模型
+  数据格式: HuggingFace（光学动作捕捉，SOMA/G1格式+语言描述+时序分段）
+  数据用途分类: 预训练数据
+  分类备注: 大规模动作数据（142,220段/288小时/522表演者），全身控制与文本到动作预训练

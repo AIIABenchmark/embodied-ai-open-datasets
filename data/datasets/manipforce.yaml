@@ -1,0 +1,75 @@
+id: manipforce
+name: ManipForce
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- Geonhyup Lee, Yeongjin Lee, Kangmin Kim, Seongju Lee, Sangjun Noh, Seunghyeok Back, Kyoobin Lee (GIST, 韩国光州科学技术院)
+description: 小规模特定传感器数据（597条轨迹），绑定腕部力/力矩与特定操作，仅用于微调
+source:
+- real_world
+modality:
+- trajectory
+- tactile
+- force
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- perception
+environment:
+- unspecified
+application:
+- task_specific_finetuning
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 597 trajectories
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://github.com/gist-ailab/ManipForce
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2509.19047
+  project: ''
+  github: https://github.com/gist-ailab/ManipForce
+  dataset: https://github.com/gist-ailab/ManipForce
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: ManipForce
+  发布/开源时间: 2025/09
+  提出机构: Geonhyup Lee, Yeongjin Lee, Kangmin Kim, Seongju Lee, Sangjun Noh, Seunghyeok Back, Kyoobin Lee (GIST, 韩国光州科学技术院)
+  论文/技术报告链接: https://arxiv.org/abs/2509.19047
+  数据开源链接: https://github.com/gist-ailab/ManipForce
+  数据来源: 真实机器人操作采集，含腕部力/力矩传感器数据
+  数据来源分类（互联网、真实采集、合成）: 实采数据—UMI
+  是否有触觉模态: 是 (腕部力/力矩)
+  数据集涵盖的场景/任务: 力引导策略学习，频率感知多模态表示用于接触丰富操作
+  数据轨迹数/平均时长/总时长: 597 trajectories
+  使用该数据集的典型模型: ManipForce策略
+  数据格式: HDF5（腕部力/力矩传感器数据，597 trajectories）
+  数据用途分类: 任务特定微调数据
+  分类备注: 小规模特定传感器数据（597条轨迹），绑定腕部力/力矩与特定操作，仅用于微调

@@ -1,0 +1,79 @@
+id: egolive
+name: EgoLive
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 京东（Joy Future Academy）等
+description: 大规模第一视角数据（1,680小时/65,866片段/346任务），VLA预训练与人到机器人迁移
+source:
+- real_world
+- human_centric
+modality:
+- rgbd
+- video
+- language
+- segmentation
+- object_annotation
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- household
+- warehouse
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,680小时、65,866个片段、346项任务；双目2160×2160、60 fps，单段约1–3分钟
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/papers/2604.23570
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2604.23570
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/papers/2604.23570
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: EgoLive
+  发布/开源时间: 2026/04
+  提出机构: 京东（Joy Future Academy）等
+  论文/技术报告链接: https://arxiv.org/abs/2604.23570
+  数据开源链接: https://huggingface.co/papers/2604.23570
+  数据来源: JoyEgoCam双目第一视角真实采集；论文/Hugging Face Paper页公开，截至核验未发现独立官方数据仓库
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 家庭服务、零售、药房等真实业务与日常操作；含6DoF、手部姿态、深度、分割和层级语言标注
+  数据轨迹数/平均时长/总时长: 1,680小时、65,866个片段、346项任务；双目2160×2160、60 fps，单段约1–3分钟
+  使用该数据集的典型模型: 面向VLA预训练与人到机器人迁移
+  数据格式: HuggingFace Paper页（JoyEgoCam双目第一视角，2160×2160@60fps）
+  数据用途分类: 预训练数据
+  分类备注: 大规模第一视角数据（1,680小时/65,866片段/346任务），VLA预训练与人到机器人迁移

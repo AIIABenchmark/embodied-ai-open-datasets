@@ -1,0 +1,73 @@
+id: open6dor-v2
+name: Open6DOR V2
+name_zh: ''
+full_name: ''
+year: 2024
+organization:
+- 浙江大学等
+description: 小规模评测数据（~4,500任务），6DoF重排评测，仅用于评测/微调
+source:
+- synthetic
+modality:
+- language
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- rearrangement
+- spatial_reasoning
+environment:
+- virtual
+application:
+- task_specific_finetuning
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 约4,500个6DoF物体重排与空间关系评测任务；源自200+物体的合成场景
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/qizekun/Open6DOR_V2
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://openreview.net/forum?id=axAmAy3Ghl
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/qizekun/Open6DOR_V2
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: Open6DOR V2
+  发布/开源时间: 2024/04
+  提出机构: 浙江大学等
+  论文/技术报告链接: https://openreview.net/forum?id=axAmAy3Ghl
+  数据开源链接: https://huggingface.co/datasets/qizekun/Open6DOR_V2
+  数据来源: 合成数据（仿真物体重排）
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 开放指令6DoF物体重排与空间关系推理
+  数据轨迹数/平均时长/总时长: 约4,500个6DoF物体重排与空间关系评测任务；源自200+物体的合成场景
+  使用该数据集的典型模型: SoFar、Open6DOR-GPT
+  数据格式: HuggingFace（6DoF物体重排与空间关系评测任务）
+  数据用途分类: 任务特定微调数据
+  分类备注: 小规模评测数据（~4,500任务），6DoF重排评测，仅用于评测/微调

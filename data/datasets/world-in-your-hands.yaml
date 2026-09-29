@@ -1,0 +1,78 @@
+id: world-in-your-hands
+name: '**World In Your Hands**'
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- Yupeng Zheng, Jichao Peng, Weize Li, Yuhang Zheng, Xiang Li, Yujie Jin, Julong Wei, Guanhua Zhang, Ruiling Zheng, Ming Cao等
+  (TARS Robotics)
+description: 大规模灵巧手数据（1,045小时/125,400片段/数百种技能），Oracle Suite可穿戴采集，灵巧操作预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- dexterous_manipulation
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,045小时，125,400个片段，数百种技能
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://wiyh.tars-ai.com/exploredataset
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2512.24310
+  project: ''
+  github: ''
+  dataset: https://wiyh.tars-ai.com/exploredataset
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: '**World In Your Hands**'
+  发布/开源时间: 2025/12
+  提出机构: Yupeng Zheng, Jichao Peng, Weize Li, Yuhang Zheng, Xiang Li, Yujie Jin, Julong Wei, Guanhua Zhang, Ruiling Zheng,
+    Ming Cao等 (TARS Robotics)
+  论文/技术报告链接: https://arxiv.org/abs/2512.24310
+  数据开源链接: https://wiyh.tars-ai.com/exploredataset
+  数据来源: Oracle Suite可穿戴采集套件在多样化真实场景中采集的多模态操作数据
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 大规模开源生态系统，学习野外以人为中心的灵巧手操作
+  数据轨迹数/平均时长/总时长: 1,045小时，125,400个片段，数百种技能
+  使用该数据集的典型模型: WIYH dexterous hand策略
+  数据格式: MP4视频+JSON（Oracle Suite可穿戴，1,045小时）
+  数据用途分类: 预训练数据
+  分类备注: 大规模灵巧手数据（1,045小时/125,400片段/数百种技能），Oracle Suite可穿戴采集，灵巧操作预训练

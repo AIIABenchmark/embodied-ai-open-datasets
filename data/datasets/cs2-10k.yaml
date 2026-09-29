@@ -1,0 +1,75 @@
+id: cs2-10k
+name: CS2-10k
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- Reka AI
+description: 大规模游戏数据（CS2第一人称），游戏AI预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+- action
+- object_annotation
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 大规模CS2第一人称视频数据集
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/RekaAI/CS2-10k
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://reka.ai/news/cs2-10k-a-large-scale-egocentric-counter-strike-2-dataset
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/RekaAI/CS2-10k
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: CS2-10k
+  发布/开源时间: 2026/06
+  提出机构: Reka AI
+  论文/技术报告链接: https://reka.ai/news/cs2-10k-a-large-scale-egocentric-counter-strike-2-dataset
+  数据开源链接: https://huggingface.co/datasets/RekaAI/CS2-10k
+  数据来源: CS2游戏公开职业比赛demo渲染的第一人称视频
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: CS2游戏第一人称视频，含每帧动作标注，用于游戏AI研究
+  数据轨迹数/平均时长/总时长: 大规模CS2第一人称视频数据集
+  使用该数据集的典型模型: CS2-10k游戏AI模型
+  数据格式: MP4视频（CS2游戏第一人称视频，含每帧动作标注）
+  数据用途分类: 预训练数据
+  分类备注: 大规模游戏数据（CS2第一人称），游戏AI预训练

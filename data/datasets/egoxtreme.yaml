@@ -1,0 +1,74 @@
+id: egoxtreme
+name: EgoXtreme
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- Taegyoon Yoon, Yegyu Han, Seojin Ji, Jaewoo Park, Sojeong Kim, Taein Kwon, Hyung-Sin Kim (Seoul National University, 首尔大学)
+description: 中等规模第一视角数据，极端条件鲁棒性对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- industrial
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 需进一步确认
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/taegyoun88/egoxtreme
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2603.25135
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/taegyoun88/egoxtreme
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: EgoXtreme
+  发布/开源时间: 2026/03
+  提出机构: Taegyoon Yoon, Yegyu Han, Seojin Ji, Jaewoo Park, Sojeong Kim, Taein Kwon, Hyung-Sin Kim (Seoul National University,
+    首尔大学)
+  论文/技术报告链接: https://arxiv.org/abs/2603.25135
+  数据开源链接: https://huggingface.co/datasets/taegyoun88/egoxtreme
+  数据来源: 第一视角视角在极端条件下(运动模糊、动态光照、烟雾)真实采集
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 极端条件下第一视角鲁棒6D对象姿态估计(工业维护、体育、紧急救援)
+  数据轨迹数/平均时长/总时长: 需进一步确认
+  使用该数据集的典型模型: EgoXtreme姿态估计模型
+  数据格式: MP4视频+JSON（极端条件第一视角）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模第一视角数据，极端条件鲁棒性对齐；亦可用于预训练

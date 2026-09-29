@@ -1,0 +1,80 @@
+id: calvin
+name: CALVIN
+name_zh: ''
+full_name: ''
+year: 2021
+organization:
+- 弗赖堡大学
+description: 中等规模（24小时/34技能/1,000指令链），长程操作对齐；亦可用于预训练
+source:
+- synthetic
+- real_world
+modality:
+- rgbd
+- rgb
+- language
+- action
+- proprioception
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- long_horizon
+- manipulation
+- generalist
+environment:
+- laboratory
+- virtual
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 24小时遥操作play数据；34项技能、1,000条五步语言指令链测试集
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://github.com/mees/calvin
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2112.03227
+  project: ''
+  github: https://github.com/mees/calvin
+  dataset: https://github.com/mees/calvin
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: CALVIN
+  发布/开源时间: 2021/12
+  提出机构: 弗赖堡大学
+  论文/技术报告链接: https://arxiv.org/abs/2112.03227
+  数据开源链接: https://github.com/mees/calvin
+  数据来源: 仿真+机器人遥操作play数据
+  数据来源分类（互联网、真实采集、合成）: 合成数据/实采数据-真机
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 桌面长程语言条件操作；34项可组合技能
+  数据轨迹数/平均时长/总时长: 24小时遥操作play数据；34项技能、1,000条五步语言指令链测试集
+  使用该数据集的典型模型: HULC、MCIL、SuSIE
+  数据格式: HDF5（RGB-D+本体感知+动作，长程语言条件操作，也有LeRobot版本）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模（24小时/34技能/1,000指令链），长程操作对齐；亦可用于预训练

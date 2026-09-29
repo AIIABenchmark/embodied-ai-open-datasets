@@ -1,0 +1,75 @@
+id: humanego
+name: HumanEgo
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- Zhi Wang, Botao He, Kelin Yu, Seungjae Lee, Ruohan Gao, Furong Huang, Yiannis Aloimonos (University of Maryland, College
+  Park)
+description: 中等规模Aria数据，零样本迁移对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 短时段Aria可穿戴演示序列
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/Leo-TX/HumanEgo
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/html/2605.24934v1
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/Leo-TX/HumanEgo
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: HumanEgo
+  发布/开源时间: 2026/05
+  提出机构: Zhi Wang, Botao He, Kelin Yu, Seungjae Lee, Ruohan Gao, Furong Huang, Yiannis Aloimonos (University of Maryland, College
+    Park)
+  论文/技术报告链接: https://arxiv.org/html/2605.24934v1
+  数据开源链接: https://huggingface.co/datasets/Leo-TX/HumanEgo
+  数据来源: Aria可穿戴设备录制的短时段第一视角人类演示数据
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 零样本机器人学习，从几分钟人类第一视角视频迁移至机器人
+  数据轨迹数/平均时长/总时长: 短时段Aria可穿戴演示序列
+  使用该数据集的典型模型: HumanEgo零样本迁移模型
+  数据格式: MP4视频（Aria可穿戴设备，短时段演示）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模Aria数据，零样本迁移对齐；亦可用于预训练

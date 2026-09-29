@@ -1,0 +1,74 @@
+id: freetacman
+name: FreeTacMan
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- Longyan Wu, Checheng Yu, Jieji Ren, Li Chen, Ran Huang, Guoying Gu, Hongyang Li (上海交大/相关机构)
+description: 大规模视触觉数据（>10,000条/>3,000k视触觉对/50任务），可直接用于基座模型训练
+source:
+- real_world
+modality:
+- rgb
+- video
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: '>10,000 trajectories'
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/OpenDriveLab/FreeTacMan
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2506.01941
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/OpenDriveLab/FreeTacMan
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: FreeTacMan
+  发布/开源时间: 2025/06
+  提出机构: Longyan Wu, Checheng Yu, Jieji Ren, Li Chen, Ran Huang, Guoying Gu, Hongyang Li (上海交大/相关机构)
+  论文/技术报告链接: https://arxiv.org/abs/2506.01941
+  数据开源链接: https://huggingface.co/datasets/OpenDriveLab/FreeTacMan
+  数据来源: 无机器人视觉-触觉数据收集系统，真实采集接触丰富操作
+  数据来源分类（互联网、真实采集、合成）: 实采数据—UMI
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 无机器人视觉-触觉数据收集，用于接触丰富的机器人操作
+  数据轨迹数/平均时长/总时长: '>10,000 trajectories'
+  使用该数据集的典型模型: FreeTacMan策略
+  数据格式: HDF5/视频（视觉-触觉数据，>10,000 trajectories）
+  数据用途分类: 预训练数据
+  分类备注: 大规模视触觉数据（>10,000条/>3,000k视触觉对/50任务），可直接用于基座模型训练

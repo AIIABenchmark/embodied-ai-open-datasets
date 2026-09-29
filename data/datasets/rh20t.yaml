@@ -1,0 +1,79 @@
+id: rh20t
+name: RH20T
+name_zh: ''
+full_name: ''
+year: 2023
+organization:
+- 上海交通大学等
+description: 大规模多模态轨迹数据（110,000+条），覆盖多技能/多场景/多机器人，可直接用于基座模型训练；触觉模态亦可用于后训练对齐
+source:
+- real_world
+modality:
+- rgb
+- language
+- trajectory
+- action
+- audio
+- tactile
+- force
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- multi_task
+environment:
+- multi_scene
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 110,000+条真实机器人操作序列，覆盖多技能、多场景、多机器人和多视角
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://rh20t.github.io/
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2307.00595
+  project: ''
+  github: ''
+  dataset: https://rh20t.github.io/
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: RH20T
+  发布/开源时间: 2023/07
+  提出机构: 上海交通大学等
+  论文/技术报告链接: https://arxiv.org/abs/2307.00595
+  数据开源链接: https://rh20t.github.io/
+  数据来源: 多机器人、多相机真实操作采集；包含视觉、力觉、音频、动作、人类示范与语言
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 是（力/触觉）
+  数据集涵盖的场景/任务: 接触丰富操作、跨机器人/场景/视角的一次示范学习
+  数据轨迹数/平均时长/总时长: 110,000+条真实机器人操作序列，覆盖多技能、多场景、多机器人和多视角
+  使用该数据集的典型模型: 一次示范模仿学习、RoboInter、VLA
+  数据格式: 项目页（RGB+力+触觉+音频多模态，110K+序列）
+  数据用途分类: 预训练数据
+  分类备注: 大规模多模态轨迹数据（110,000+条），覆盖多技能/多场景/多机器人，可直接用于基座模型训练；触觉模态亦可用于后训练对齐

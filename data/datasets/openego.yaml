@@ -1,0 +1,79 @@
+id: openego
+name: OpenEgo
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- OpenEgo项目团队
+description: 大规模整合数据（1,107小时/119.6M帧/344.5K段/290任务/600+环境），语言条件策略预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+- language
+- trajectory
+- action
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- assembly
+- imitation_learning
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,107小时、119.6M帧、344.5K段记录、290项任务、600+环境
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://github.com/ahadjawaid/openego
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2509.05513
+  project: ''
+  github: https://github.com/ahadjawaid/openego
+  dataset: https://github.com/ahadjawaid/openego
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: OpenEgo
+  发布/开源时间: 2025/09
+  提出机构: OpenEgo项目团队
+  论文/技术报告链接: https://arxiv.org/abs/2509.05513
+  数据开源链接: https://github.com/ahadjawaid/openego
+  数据来源: 整合6个公开第一视角数据集并统一手部姿态与动作原语；代码和数据下载公开
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 厨房、装配与日常灵巧操作；语言条件模仿学习、手轨迹预测和VLA
+  数据轨迹数/平均时长/总时长: 1,107小时、119.6M帧、344.5K段记录、290项任务、600+环境
+  使用该数据集的典型模型: OpenEgo语言条件手轨迹策略
+  数据格式: GitHub（整合6个公开数据集，统一手部姿态与动作原语，1,107小时）
+  数据用途分类: 预训练数据
+  分类备注: 大规模整合数据（1,107小时/119.6M帧/344.5K段/290任务/600+环境），语言条件策略预训练

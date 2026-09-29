@@ -1,0 +1,93 @@
+name: Add a New Dataset
+description: Submit a new Embodied AI dataset for consideration.
+title: "[Dataset] "
+labels: ["dataset", "new"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Dataset name
+      placeholder: "e.g. DROID"
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: Official project or dataset URL
+      placeholder: "Official URL"
+    validations:
+      required: true
+
+  - type: input
+    id: paper
+    attributes:
+      label: Paper URL
+      placeholder: "Paper URL"
+
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      placeholder: "Research institution / company"
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Release year
+      placeholder: "2026"
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Data source
+      description: "Choose from real_world, simulation, synthetic, human_centric, internet_video, mixed."
+    validations:
+      required: true
+
+  - type: textarea
+    id: modality
+    attributes:
+      label: Data modality
+      description: "Examples: RGB, video, language, trajectory, action, tactile."
+    validations:
+      required: true
+
+  - type: textarea
+    id: embodiment
+    attributes:
+      label: Robot embodiment
+      description: "Examples: manipulator, humanoid, mobile manipulator, multi-embodiment."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: "Examples: manipulation, navigation, long_horizon, multi_task."
+    validations:
+      required: true
+
+  - type: textarea
+    id: scale
+    attributes:
+      label: Dataset scale
+      description: "Episodes, trajectories, hours, frames, robots, scenes, etc."
+
+  - type: textarea
+    id: access
+    attributes:
+      label: Access and license
+      description: "Explain whether it is open, registration required, request access, etc."
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short factual description
+    validations:
+      required: true

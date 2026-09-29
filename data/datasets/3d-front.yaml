@@ -1,0 +1,73 @@
+id: 3d-front
+name: 3D-FRONT
+name_zh: ''
+full_name: ''
+year: 2020
+organization:
+- Huan Fu, Rongfei Jia, Lin Gao, Mingming Gong, Binqiang Zhao, Steve Maybank, Dacheng Tao (阿里巴巴/清华等)
+description: 大规模3D场景（13,151个3D对象模型/6,813个合成房屋），场景生成与纹理迁移预训练
+source:
+- synthetic
+modality:
+- 3d_scene
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+- scene_understanding
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 13,151个3D对象模型，6,813个合成房屋
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/huanngzh/3D-Front
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2011.09128
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/huanngzh/3D-Front
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: 3D-FRONT
+  发布/开源时间: 2020/11
+  提出机构: Huan Fu, Rongfei Jia, Lin Gao, Mingming Gong, Binqiang Zhao, Steve Maybank, Dacheng Tao (阿里巴巴/清华等)
+  论文/技术报告链接: https://arxiv.org/abs/2011.09128
+  数据开源链接: https://huggingface.co/datasets/huanngzh/3D-Front
+  数据来源: 专业设计师制作的合成室内场景和家具模型
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 3D家具资源与室内场景合成，支持场景生成和纹理迁移
+  数据轨迹数/平均时长/总时长: 13,151个3D对象模型，6,813个合成房屋
+  使用该数据集的典型模型: 3D-FRONT相关场景生成模型
+  数据格式: 3D模型+场景（13,151个3D对象模型，6,813个合成房屋）
+  数据用途分类: 预训练数据
+  分类备注: 大规模3D场景（13,151个3D对象模型/6,813个合成房屋），场景生成与纹理迁移预训练

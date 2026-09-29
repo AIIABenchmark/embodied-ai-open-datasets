@@ -1,0 +1,79 @@
+id: ace-data-0
+name: ACE-Data-0
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 南洋理工大学 S-Lab、ACE Robotics 等
+description: 大规模多模态数据（150小时/17M帧/75K片段/200类任务），多机位多模态预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+- action
+- audio
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- long_horizon
+- manipulation
+- generalist
+environment:
+- household
+- laboratory
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 150小时、17M视频帧、75,000个交互片段、200类任务、50名参与者、2个环境
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/ACERobotics/ACE-Data-0
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2607.28625
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/ACERobotics/ACE-Data-0
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: ACE-Data-0
+  发布/开源时间: 2026/07
+  提出机构: 南洋理工大学 S-Lab、ACE Robotics 等
+  论文/技术报告链接: https://arxiv.org/abs/2607.28625
+  数据开源链接: https://huggingface.co/datasets/ACERobotics/ACE-Data-0
+  数据来源: 真实家庭环境中的环境式多机位同步采集；第一视角、外部多视角、动作捕捉、音频与触觉统一标定
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 桌面灵巧操作、全身移动、长程家务链、人-物与人-场景交互
+  数据轨迹数/平均时长/总时长: 150小时、17M视频帧、75,000个交互片段、200类任务、50名参与者、2个环境
+  使用该数据集的典型模型: VLA、世界模型、模仿学习与多模态表征
+  数据格式: HuggingFace Parquet（多机位视频+动作捕捉+音频+触觉统一标定）
+  数据用途分类: 预训练数据
+  分类备注: 大规模多模态数据（150小时/17M帧/75K片段/200类任务），多机位多模态预训练

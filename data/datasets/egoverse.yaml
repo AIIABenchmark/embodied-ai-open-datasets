@@ -1,0 +1,74 @@
+id: egoverse
+name: EgoVerse
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 佐治亚理工、斯坦福大学、加州大学圣迭戈分校、苏黎世联邦理工、MIT、Meta、Mecka AI、Scale AI等
+description: 大规模第一视角数据（1,362小时/80,000片段/1,965任务/240场景），HPT共训练预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,362小时、约80,000个片段、1,965项任务、240个场景、2,087名示范者
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://partners.mecka.ai/egoverse
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2604.07607
+  project: ''
+  github: ''
+  dataset: https://partners.mecka.ai/egoverse
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: EgoVerse
+  发布/开源时间: 2026/04
+  提出机构: 佐治亚理工、斯坦福大学、加州大学圣迭戈分校、苏黎世联邦理工、MIT、Meta、Mecka AI、Scale AI等
+  论文/技术报告链接: https://arxiv.org/abs/2604.07607
+  数据开源链接: https://partners.mecka.ai/egoverse
+  数据来源: 全球多机构穿戴式第一视角真实采集；官方Dataset Browser持续更新
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 标准任务与开放式日常操作；物体入容器、杯碟放置、装袋、叠衣等人到机器人迁移
+  数据轨迹数/平均时长/总时长: 1,362小时、约80,000个片段、1,965项任务、240个场景、2,087名示范者
+  使用该数据集的典型模型: HPT共训练策略、EgoVerse迁移基准
+  数据格式: HuggingFace（穿戴式第一视角，1,362小时，80,000片段）
+  数据用途分类: 预训练数据
+  分类备注: 大规模第一视角数据（1,362小时/80,000片段/1,965任务/240场景），HPT共训练预训练

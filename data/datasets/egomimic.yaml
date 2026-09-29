@@ -1,0 +1,75 @@
+id: egomimic
+name: EgoMimic
+name_zh: ''
+full_name: ''
+year: 2024
+organization:
+- 佐治亚理工学院、斯坦福大学
+description: 大规模第一视角+机器人对齐数据（Project Aria/3D手部/SLAM），统一模仿预训练
+source:
+- real_world
+modality:
+- video
+- trajectory
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- long_horizon
+- manipulation
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 项目公开人类第一视角与机器人示范数据；人类视频含3D手部跟踪与设备SLAM
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://egomimic.github.io/
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2410.24221
+  project: ''
+  github: ''
+  dataset: https://egomimic.github.io/
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: EgoMimic
+  发布/开源时间: 2024/10
+  提出机构: 佐治亚理工学院、斯坦福大学
+  论文/技术报告链接: https://arxiv.org/abs/2410.24221
+  数据开源链接: https://egomimic.github.io/
+  数据来源: 第一视角人类采集+机器人遥操作
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 长程单臂与双臂操作；Project Aria第一视角视频、3D手部轨迹与机器人数据对齐
+  数据轨迹数/平均时长/总时长: 项目公开人类第一视角与机器人示范数据；人类视频含3D手部跟踪与设备SLAM
+  使用该数据集的典型模型: EgoMimic统一模仿策略
+  数据格式: GitHub（Project Aria第一视角视频+3D手部轨迹+机器人数据对齐）
+  数据用途分类: 预训练数据
+  分类备注: 大规模第一视角+机器人对齐数据（Project Aria/3D手部/SLAM），统一模仿预训练

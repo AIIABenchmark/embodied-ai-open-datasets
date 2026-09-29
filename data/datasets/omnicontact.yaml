@@ -1,0 +1,77 @@
+id: omnicontact
+name: OmniContact
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 诺亦腾机器人、香港科技大学等
+description: 全身接触数据（29小时/1,274段），中等规模，主要用于人形机器人全身接触对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- trajectory
+- action
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- long_horizon
+- manipulation
+- mobile_manipulation
+- generalist
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,274段有效序列、约22.29小时、7.22M物体帧；人-物同步采集90 Hz
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/lightcone02/OmniContact-Dataset
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2606.26201
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/lightcone02/OmniContact-Dataset
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: OmniContact
+  发布/开源时间: 2026/06
+  提出机构: 诺亦腾机器人、香港科技大学等
+  论文/技术报告链接: https://arxiv.org/abs/2606.26201
+  数据开源链接: https://huggingface.co/datasets/lightcone02/OmniContact-Dataset
+  数据来源: 真实人体-物体交互动作捕捉，并重定向为Unitree G1全身轨迹；含物体6DoF与接触标签
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否（含接触标注）
+  数据集涵盖的场景/任务: 搬箱、推拉、搬移、滑动、踢球等人形机器人长程移动操作
+  数据轨迹数/平均时长/总时长: 1,274段有效序列、约22.29小时、7.22M物体帧；人-物同步采集90 Hz
+  使用该数据集的典型模型: CF-Track、CF-Gen、全身控制策略
+  数据格式: HuggingFace（动作捕捉重定向为Unitree G1全身轨迹，含物体6DoF与接触标签）
+  数据用途分类: 后训练数据
+  分类备注: 全身接触数据（29小时/1,274段），中等规模，主要用于人形机器人全身接触对齐；亦可用于预训练

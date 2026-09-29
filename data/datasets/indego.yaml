@@ -1,0 +1,74 @@
+id: indego
+name: IndEgo
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- Fraunhofer IPK等 (德国弗劳恩霍夫生产设备和设计技术研究所)
+description: 中等规模（197小时第一视角+97小时外视角），工业场景对齐；亦可用于预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- assembly
+- generalist
+environment:
+- industrial
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 3,460个第一视角录制(约197小时)，1,092个外视角录制(约97小时)
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/FraunhoferIPK/IndEgo
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2511.19684
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/FraunhoferIPK/IndEgo
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: IndEgo
+  发布/开源时间: 2025/11
+  提出机构: Fraunhofer IPK等 (德国弗劳恩霍夫生产设备和设计技术研究所)
+  论文/技术报告链接: https://arxiv.org/abs/2511.19684
+  数据开源链接: https://huggingface.co/datasets/FraunhoferIPK/IndEgo
+  数据来源: 工业场景真实采集的多模态第一视角和外视角数据
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 工业场景和协作工作的第一视角助手数据集，含装配/拆卸、物流、检查维修等
+  数据轨迹数/平均时长/总时长: 3,460个第一视角录制(约197小时)，1,092个外视角录制(约97小时)
+  使用该数据集的典型模型: IndEgo工业助手模型
+  数据格式: MP4视频+JSON（工业第一视角+外视角，3,460个录制）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模（197小时第一视角+97小时外视角），工业场景对齐；亦可用于预训练

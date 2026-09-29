@@ -1,0 +1,74 @@
+id: egotactile
+name: EgoTactile
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 清华大学深圳国际研究生院、哈尔滨工业大学（深圳）、鹏城实验室、伦敦大学学院等
+description: 小规模触觉数据（843段/6.43小时），触觉模态对齐与压力预测；亦可参与预训练
+source:
+- real_world
+- human_centric
+modality:
+- video
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 共843段视频、约6.43小时；63种物体、7类、12名参与者
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/HustleHard/EgoTactile
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2606.09243
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/HustleHard/EgoTactile
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: EgoTactile
+  发布/开源时间: 2026/06
+  提出机构: 清华大学深圳国际研究生院、哈尔滨工业大学（深圳）、鹏城实验室、伦敦大学学院等
+  论文/技术报告链接: https://arxiv.org/abs/2606.09243
+  数据开源链接: https://huggingface.co/datasets/HustleHard/EgoTactile
+  数据来源: 头戴/颈戴第一视角相机与162点压力手套同步真实采集；Hugging Face公开
+  数据来源分类（互联网、真实采集、合成）: 实采数据—Egocentric
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 日常物体全手抓握压力预测、对象泛化、跨受试者泛化及裸手迁移
+  数据轨迹数/平均时长/总时长: 共843段视频、约6.43小时；63种物体、7类、12名参与者
+  使用该数据集的典型模型: EgoPressureFormer、EgoPressureDiff
+  数据格式: HuggingFace Parquet（头戴/颈戴第一视角相机+162点压力手套同步）
+  数据用途分类: 后训练数据
+  分类备注: 小规模触觉数据（843段/6.43小时），触觉模态对齐与压力预测；亦可参与预训练

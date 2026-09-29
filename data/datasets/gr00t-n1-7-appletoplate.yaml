@@ -1,0 +1,72 @@
+id: gr00t-n1-7-appletoplate
+name: GR00T-N1.7-AppleToPlate
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- NVIDIA
+description: 超小规模特定任务（402条轨迹），绑定G1与"苹果放盘"，仅用于微调
+source:
+- real_world
+modality:
+- trajectory
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+environment:
+- laboratory
+application:
+- task_specific_finetuning
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 402条轨迹、402段RGB视频，30 Hz，约1.02 GB
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/nvidia/GR00T-N1.7-AppleToPlate
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://huggingface.co/blog/nvidia/nvidia-isaac-teleop-and-gr00t17-in-lerobot
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/nvidia/GR00T-N1.7-AppleToPlate
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: GR00T-N1.7-AppleToPlate
+  发布/开源时间: 2026/05
+  提出机构: NVIDIA
+  论文/技术报告链接: https://huggingface.co/blog/nvidia/nvidia-isaac-teleop-and-gr00t17-in-lerobot
+  数据开源链接: https://huggingface.co/datasets/nvidia/GR00T-N1.7-AppleToPlate
+  数据来源: 遥操作（XR头显）
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 实验室桌面：Unitree G1人形机器人将苹果放入盘中
+  数据轨迹数/平均时长/总时长: 402条轨迹、402段RGB视频，30 Hz，约1.02 GB
+  使用该数据集的典型模型: GR00T N1.7
+  数据格式: HuggingFace LeRobot格式（Unitree G1苹果放入盘中，402条轨迹）
+  数据用途分类: 任务特定微调数据
+  分类备注: 超小规模特定任务（402条轨迹），绑定G1与"苹果放盘"，仅用于微调

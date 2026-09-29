@@ -1,0 +1,74 @@
+id: daimon-infinity
+name: Daimon-Infinity
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 戴盟机器人联合海内外数十家学术机构与知名企业
+description: 超大规模全模态数据（10,000+小时/计划数百万小时），全模态物理世界预训练
+source:
+- real_world
+modality:
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+environment:
+- household
+- industrial
+- outdoor
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 含触觉全模态物理世界具身数据集，已开源10000小时，计划年内扩展至数百万小时
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://modelscope.cn/datasets/daimonrobotics/Daimon-Infinity
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: ''
+  project: ''
+  github: ''
+  dataset: https://modelscope.cn/datasets/daimonrobotics/Daimon-Infinity
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: Daimon-Infinity
+  发布/开源时间: 2026/04
+  提出机构: 戴盟机器人联合海内外数十家学术机构与知名企业
+  论文/技术报告链接: ''
+  数据开源链接: https://modelscope.cn/datasets/daimonrobotics/Daimon-Infinity
+  数据来源: 外发式采集
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 家居、工厂、户外
+  数据轨迹数/平均时长/总时长: 含触觉全模态物理世界具身数据集，已开源10000小时，计划年内扩展至数百万小时
+  使用该数据集的典型模型: ''
+  数据格式: ModelScope（全模态物理世界具身数据，已开源10,000小时）
+  数据用途分类: 预训练数据
+  分类备注: 超大规模全模态数据（10,000+小时/计划数百万小时），全模态物理世界预训练

@@ -1,0 +1,27 @@
+name: Update an Existing Dataset
+description: Report metadata changes or provide new information.
+title: "[Update] "
+labels: ["dataset", "update"]
+body:
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset ID
+      placeholder: "e.g. droid"
+    validations:
+      required: true
+
+  - type: textarea
+    id: change
+    attributes:
+      label: What should be changed?
+      description: "Please provide the old information and the corrected information."
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Supporting source URL
+    validations:
+      required: true

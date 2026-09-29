@@ -1,0 +1,128 @@
+# Datasets by Application Stage
+
+> Automatically generated.
+
+## Posttraining
+
+- Aist-Bimanual
+- ArtVIP
+- BEHAVIOR-1K Challenge Demos
+- CALVIN
+- DECO-50
+- Data Scaling Laws
+- Deform360
+- DexMimicGen
+- DexWild
+- Dexora
+- Dynamic Object Manipulation（DOM）
+- Ego-1K
+- EgoEMG
+- EgoFun3D
+- EgoSPT
+- EgoSteer
+- EgoTactile
+- EgoTraj
+- EgoXtreme
+- FastUMI Dataset
+- Galaxea Open-World Dataset
+- H-Tac（样例公开）
+- HD-EPIC
+- HumanCLAW
+- HumanEgo
+- Humanoid Everyday
+- IndEgo
+- LIBERO
+- MimicGen
+- MobileEgo Anywhere
+- NVIDIA Kitchen Demos
+- OmniContact
+- OpenLET
+- PH2D
+- RoboTwin 2.0
+- RoboVerse
+- T-Rex Dataset
+- Touch in the Wild
+- Unitree UnifoLM-WBT
+- Universal Manipulation Interface
+- 白虎-VTouch
+
+## Pretraining
+
+- **World In Your Hands**
+- 10kh RealOmniOpen Dataset
+- 3D-FRONT
+- ABC-130K
+- ABO
+- ACE-Data-0
+- AGIBOT WORLD 2026
+- BONES-SEED
+- BridgeData V2
+- CS2-10k
+- DROID
+- Daimon-Infinity
+- DexonomySim
+- Ego2Robot
+- EgoDex
+- EgoLive
+- EgoMimic
+- EgoScale
+- EgoTouch
+- EgoVerse
+- EgoVid-5M
+- Egocentric-10K
+- FastUMI-100K
+- FreeTacMan
+- GRAIL
+- HSSD-200
+- Hy-Embodied-0.5-VLA-Data
+- InternData-A1
+- InternData-M1
+- InternData-N1
+- ManiSkill3 Demonstrations
+- ManiTwin-100K（早期公开版）
+- MansionWorld
+- MolmoAct2-BimanualYAM
+- Objaverse
+- Objaverse-XL
+- OmniAction
+- OmniObject3D
+- OmniViTac
+- Open X-Embodiment
+- Open-AoE
+- Open-H-Embodiment
+- OpenEgo
+- OpenNeoData
+- PhysInOne
+- PhysX-Mobility
+- PhysXVerse
+- PhysicalAI WorldModel Synthetic Embodied Robot Scenes
+- ProcTHOR
+- RH20T
+- RT-1 Dataset
+- RekaDaily-10k
+- RoboCOIN
+- RoboCasa365
+- RoboInter-Data
+- RoboMIND
+- SAGE-10k
+- SAGE-3D VLN Data
+- ScanNet++
+- TableVerse-100K
+- UnifoLM-WBT-Dataset
+- WANDA
+- World In YourHands
+- Xperience-10M
+
+## Task Specific Finetuning
+
+- DexUMI
+- EgoExOR
+- GR00T-N1.7-AppleToPlate
+- HRDexDB
+- LEGATO
+- LIBERO-Para
+- ManipForce
+- Open6DOR V2
+- RCT
+- UMI-3D
+- exUMI

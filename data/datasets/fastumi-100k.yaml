@@ -1,0 +1,75 @@
+id: fastumi-100k
+name: FastUMI-100K
+name_zh: ''
+full_name: ''
+year: 2025
+organization:
+- Kehui Liu, Zhongjie Jia, Yang Li, Zhaxizhuoma, Pengan Chen, Song Liu, Xin Liu, Pingrui Zhang, Haoming Song, Xinyi Ye, Nieqing
+  Cao, Wang Zhigang, Zeng Jia, Wang Dong, Ding Yan, Zhao Bin, Li Xuelong (多机构联合)
+description: 大规模UMI数据（100,000条轨迹/54任务），FastUMI基座模型预训练
+source:
+- real_world
+modality:
+- trajectory
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 100K trajectories
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://github.com/MrKeee/FastUMI-100K
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2510.08022
+  project: ''
+  github: https://github.com/MrKeee/FastUMI-100K
+  dataset: https://github.com/MrKeee/FastUMI-100K
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: FastUMI-100K
+  发布/开源时间: 2025/10
+  提出机构: Kehui Liu, Zhongjie Jia, Yang Li, Zhaxizhuoma, Pengan Chen, Song Liu, Xin Liu, Pingrui Zhang, Haoming Song, Xinyi
+    Ye, Nieqing Cao, Wang Zhigang, Zeng Jia, Wang Dong, Ding Yan, Zhao Bin, Li Xuelong (多机构联合)
+  论文/技术报告链接: https://arxiv.org/abs/2510.08022
+  数据开源链接: https://github.com/MrKeee/FastUMI-100K
+  数据来源: 模块化硬件真实采集的大规模UMI风格数据，覆盖单臂和双臂任务
+  数据来源分类（互联网、真实采集、合成）: 实采数据—UMI
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 大规模数据驱动的机器人操作，54个任务场景，单臂与双臂任务
+  数据轨迹数/平均时长/总时长: 100K trajectories
+  使用该数据集的典型模型: FastUMI-100K预训练模型
+  数据格式: LeRobot v2.1（Parquet+MP4+JSON，100K trajectories，约600小时）
+  数据用途分类: 预训练数据
+  分类备注: 大规模UMI数据（100,000条轨迹/54任务），FastUMI基座模型预训练

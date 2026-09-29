@@ -1,0 +1,138 @@
+version: '2.0'
+source:
+- id: real_world
+  name: Real-world
+  zh: 真实世界
+- id: simulation
+  name: Simulation
+  zh: 仿真
+- id: synthetic
+  name: Synthetic
+  zh: 合成数据
+- id: human_centric
+  name: Human-centric
+  zh: 以人为中心
+- id: internet_video
+  name: Internet / Video
+  zh: 互联网/视频
+- id: mixed
+  name: Mixed / Multi-source
+  zh: 多来源
+modality:
+- rgb
+- rgbd
+- depth
+- point_cloud
+- video
+- language
+- audio
+- trajectory
+- action
+- proprioception
+- force
+- tactile
+- 3d_scene
+- segmentation
+- object_annotation
+- human_motion
+- custom
+embodiment:
+  type:
+  - manipulator
+  - mobile_manipulator
+  - humanoid
+  - quadruped
+  - dexterous_hand
+  - wheeled_robot
+  - aerial_robot
+  - multi_robot
+  - multi_embodiment
+  - unspecified
+  platforms:
+  - franka
+  - ur5
+  - widowx
+  - aloha
+  - mobile_aloha
+  - fetch
+  - stretch
+  - spot
+  - unitree
+  - humanoid_generic
+  - other
+  - unspecified
+task:
+- perception
+- scene_understanding
+- spatial_reasoning
+- navigation
+- manipulation
+- grasping
+- pick_and_place
+- tool_use
+- assembly
+- rearrangement
+- mobile_manipulation
+- dexterous_manipulation
+- locomotion
+- human_robot_interaction
+- long_horizon
+- multi_task
+- generalist
+- imitation_learning
+- reinforcement_learning
+- sim_to_real
+- other
+environment:
+- tabletop
+- household
+- laboratory
+- industrial
+- warehouse
+- outdoor
+- open_world
+- multi_scene
+- virtual
+- mixed
+- unspecified
+application:
+- pretraining
+- posttraining
+- task_specific_finetuning
+- evaluation
+- imitation_learning
+- reinforcement_learning
+- sim_to_real
+- world_model
+- data_generation
+- other
+availability:
+- open
+- registration_required
+- request_access
+- partial
+- benchmark_only
+- unavailable
+- unknown
+license:
+- apache_2_0
+- mit
+- cc_by
+- cc_by_sa
+- cc_by_nc
+- research_only
+- custom
+- unknown
+data_format:
+- image
+- video
+- json
+- jsonl
+- csv
+- parquet
+- hdf5
+- rosbag
+- npz
+- webdataset
+- custom
+- unknown

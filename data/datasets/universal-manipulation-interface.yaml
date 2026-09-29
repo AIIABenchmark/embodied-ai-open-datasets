@@ -1,0 +1,74 @@
+id: universal-manipulation-interface
+name: Universal Manipulation Interface
+name_zh: ''
+full_name: ''
+year: 2024
+organization:
+- MIT / Stanford
+description: 中等规模（2,543条轨迹），UMI原始范式，野外教学能力对齐；亦可用于预训练
+source:
+- real_world
+modality:
+- video
+- trajectory
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- unspecified
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 2543 trajectories
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://github.com/real-stanford/universal_manipulation_interface
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2402.10329
+  project: ''
+  github: https://github.com/real-stanford/universal_manipulation_interface
+  dataset: https://github.com/real-stanford/universal_manipulation_interface
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: Universal Manipulation Interface
+  发布/开源时间: 2024/02
+  提出机构: MIT / Stanford
+  论文/技术报告链接: https://arxiv.org/abs/2402.10329
+  数据开源链接: https://github.com/real-stanford/universal_manipulation_interface
+  数据来源: 手持式低成本夹持器+GoPro真实采集的野外操作演示数据
+  数据来源分类（互联网、真实采集、合成）: 实采数据—UMI
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 野外机器人教学，无需野外机器人即可采集操作数据
+  数据轨迹数/平均时长/总时长: 2543 trajectories
+  使用该数据集的典型模型: UMI策略、Diffusion Policy
+  数据格式: HDF5/视频（GoPro+手持夹持器，2,543 trajectories）
+  数据用途分类: 后训练数据
+  分类备注: 中等规模（2,543条轨迹），UMI原始范式，野外教学能力对齐；亦可用于预训练

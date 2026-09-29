@@ -1,0 +1,74 @@
+id: unifolm-wbt-dataset
+name: UnifoLM-WBT-Dataset
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 宇树科技
+description: 大规模全身数据（189万条轨迹/340小时），UniFolM-VLA预训练
+source:
+- real_world
+modality:
+- trajectory
+- action
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- household
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 开放场景人形机器人高质量全身遥操作真机数据集，包含189万条动作轨迹数据，总时长为340小时
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/collections/unitreerobotics/unifolm-wbt-dataset
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: ''
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/collections/unitreerobotics/unifolm-wbt-dataset
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: UnifoLM-WBT-Dataset
+  发布/开源时间: 2026/03
+  提出机构: 宇树科技
+  论文/技术报告链接: ''
+  数据开源链接: https://huggingface.co/collections/unitreerobotics/unifolm-wbt-dataset
+  数据来源: 遥操作
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 家居、办公、商超
+  数据轨迹数/平均时长/总时长: 开放场景人形机器人高质量全身遥操作真机数据集，包含189万条动作轨迹数据，总时长为340小时
+  使用该数据集的典型模型: UnifoLM-VLA-0
+  数据格式: HuggingFace LeRobot格式（189万条动作轨迹，340小时）
+  数据用途分类: 预训练数据
+  分类备注: 大规模全身数据（189万条轨迹/340小时），UniFolM-VLA预训练

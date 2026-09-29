@@ -1,0 +1,73 @@
+id: maniskill3-demonstrations
+name: ManiSkill3 Demonstrations
+name_zh: ''
+full_name: ''
+year: 2024
+organization:
+- ManiSkill / Hao Su Lab
+description: 大规模仿真数据（数百万帧/40+技能/10+任务类别），GPU并行仿真专家示范预训练
+source:
+- synthetic
+modality:
+- custom
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- virtual
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 数百万帧示范数据；支持RGB-D、状态和动作轨迹
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://github.com/haosulab/ManiSkill
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2410.00425
+  project: ''
+  github: https://github.com/haosulab/ManiSkill
+  dataset: https://github.com/haosulab/ManiSkill
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: ManiSkill3 Demonstrations
+  发布/开源时间: 2024/10
+  提出机构: ManiSkill / Hao Su Lab
+  论文/技术报告链接: https://arxiv.org/abs/2410.00425
+  数据开源链接: https://github.com/haosulab/ManiSkill
+  数据来源: 合成数据（GPU并行仿真与专家示范）
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 操作技能；40+项技能/任务、10+任务类别、2,000+物体
+  数据轨迹数/平均时长/总时长: 数百万帧示范数据；支持RGB-D、状态和动作轨迹
+  使用该数据集的典型模型: Diffusion Policy、PPO、TD-MPC2等基线
+  数据格式: GitHub HDF5（可转换为LeRobot v3格式）
+  数据用途分类: 预训练数据
+  分类备注: 大规模仿真数据（数百万帧/40+技能/10+任务类别），GPU并行仿真专家示范预训练

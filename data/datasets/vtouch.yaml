@@ -1,0 +1,74 @@
+id: vtouch
+name: 白虎-VTouch
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 国家地方共建人形机器人创新中心、上海纬钛科技有限公司
+description: 视触觉数据（100小时/6,000分钟），中等规模，主要用于视触觉模态对齐；触觉稀缺性使其亦可参与预训练
+source:
+- real_world
+modality:
+- tactile
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- household
+- industrial
+application:
+- posttraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 开源时长约6000分钟
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://ai.gitcode.com/openloong/visuo-tactile
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: ''
+  project: ''
+  github: ''
+  dataset: https://ai.gitcode.com/openloong/visuo-tactile
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: 白虎-VTouch
+  发布/开源时间: 2026/01
+  提出机构: 国家地方共建人形机器人创新中心、上海纬钛科技有限公司
+  论文/技术报告链接: ''
+  数据开源链接: https://ai.gitcode.com/openloong/visuo-tactile
+  数据来源: 遥操作
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 是
+  数据集涵盖的场景/任务: 家居、工厂、餐厅
+  数据轨迹数/平均时长/总时长: 开源时长约6000分钟
+  使用该数据集的典型模型: ''
+  数据格式: GitCode（视触觉数据，约6,000分钟）
+  数据用途分类: 后训练数据
+  分类备注: 视触觉数据（100小时/6,000分钟），中等规模，主要用于视触觉模态对齐；触觉稀缺性使其亦可参与预训练

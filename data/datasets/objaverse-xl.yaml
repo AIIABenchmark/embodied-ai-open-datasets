@@ -1,0 +1,75 @@
+id: objaverse-xl
+name: Objaverse-XL
+name_zh: ''
+full_name: ''
+year: 2023
+organization:
+- Matt Deitke, Ruoshi Liu, Matthew Wallingford, Huong Ngo, Oscar Michel, Aditya Kusupati, Alan Fan, Christian Laforte, Vikram
+  Voleti, Samir Yitzhak Gadre等 (Allen Institute for AI)
+description: 超大规模3D对象（10,000,000+），3D生成与感知基座模型预训练
+source:
+- synthetic
+modality:
+- custom
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- generalist
+- perception
+environment:
+- unspecified
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1,000万+ 3D对象
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/allenai/https://arxiv.org/abs/2307.05663-xl
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2307.05663
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/allenai/https://arxiv.org/abs/2307.05663-xl
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: Objaverse-XL
+  发布/开源时间: 2023/07
+  提出机构: Matt Deitke, Ruoshi Liu, Matthew Wallingford, Huong Ngo, Oscar Michel, Aditya Kusupati, Alan Fan, Christian Laforte,
+    Vikram Voleti, Samir Yitzhak Gadre等 (Allen Institute for AI)
+  论文/技术报告链接: https://arxiv.org/abs/2307.05663
+  数据开源链接: https://huggingface.co/datasets/allenai/https://arxiv.org/abs/2307.05663-xl
+  数据来源: 互联网大规模采集的3D对象合成数据集
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 超大规模3D对象数据集，支持3D生成和感知研究
+  数据轨迹数/平均时长/总时长: 1,000万+ 3D对象
+  使用该数据集的典型模型: Objaverse-XL相关3D模型
+  数据格式: GLB/USD格式（1,000万+3D对象）
+  数据用途分类: 预训练数据
+  分类备注: 超大规模3D对象（10,000,000+），3D生成与感知基座模型预训练

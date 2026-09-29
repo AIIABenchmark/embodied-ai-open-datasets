@@ -1,0 +1,73 @@
+id: libero-para
+name: LIBERO-Para
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- HAI Lab
+description: 小规模评测数据（1K-10K样本），VLA鲁棒性诊断，仅用于评测/微调
+source:
+- synthetic
+modality:
+- language
+- action
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- multi_task
+environment:
+- unspecified
+application:
+- task_specific_finetuning
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 1K–10K规模的释义指令与受控评测样本
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/HAI-Lab/LIBERO-Para
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2603.28301
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/HAI-Lab/LIBERO-Para
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: LIBERO-Para
+  发布/开源时间: 2026/04
+  提出机构: HAI Lab
+  论文/技术报告链接: https://arxiv.org/abs/2603.28301
+  数据开源链接: https://huggingface.co/datasets/HAI-Lab/LIBERO-Para
+  数据来源: 在LIBERO任务上构造动作表达与物体指称的受控释义变体
+  数据来源分类（互联网、真实采集、合成）: 合成数据
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: VLA对语言改写、同义表达与物体指称变化的鲁棒性诊断
+  数据轨迹数/平均时长/总时长: 1K–10K规模的释义指令与受控评测样本
+  使用该数据集的典型模型: OpenVLA、π0等VLA鲁棒性评测
+  数据格式: HuggingFace Parquet（释义指令与受控评测样本）
+  数据用途分类: 任务特定微调数据
+  分类备注: 小规模评测数据（1K-10K样本），VLA鲁棒性诊断，仅用于评测/微调

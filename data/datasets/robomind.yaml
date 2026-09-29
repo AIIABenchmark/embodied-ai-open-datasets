@@ -1,0 +1,73 @@
+id: robomind
+name: RoboMIND
+name_zh: ''
+full_name: ''
+year: 2026
+organization:
+- 北京人形机器人创新中心、北京大学计算机学院
+description: 大规模多具身数据（总时长超1,000小时，多版本），INDEMIND基座模型预训练
+source:
+- real_world
+modality:
+- trajectory
+embodiment:
+  type:
+  - unspecified
+  platforms:
+  - unspecified
+tasks:
+- manipulation
+- generalist
+environment:
+- household
+application:
+- pretraining
+scale:
+  episodes: null
+  trajectories: null
+  hours: null
+  frames: null
+  robots: null
+  scenes: null
+  tasks: null
+  notes: 包含1.0和2.0两个版本，总时长超1000小时
+data_format:
+- custom
+language: []
+access:
+  availability: open
+  registration_required: false
+  download: https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND
+  access_notes: Migrated from the original catalog; verify current access status before relying on it.
+license:
+  type: unknown
+  text: ''
+  url: ''
+links:
+  paper: https://arxiv.org/abs/2412.13877
+  project: ''
+  github: ''
+  dataset: https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND
+  documentation: ''
+tags: []
+status:
+  active: true
+  version: ''
+  last_verified: '2026-09-26'
+citation: ''
+notes: Migrated from the original 14-column catalog. Please verify normalized taxonomy fields against authoritative sources.
+legacy:
+  数据集（中英文）: RoboMIND
+  发布/开源时间: 2026/02
+  提出机构: 北京人形机器人创新中心、北京大学计算机学院
+  论文/技术报告链接: https://arxiv.org/abs/2412.13877
+  数据开源链接: https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND
+  数据来源: 遥操作
+  数据来源分类（互联网、真实采集、合成）: 实采数据—真机
+  是否有触觉模态: 否
+  数据集涵盖的场景/任务: 家居
+  数据轨迹数/平均时长/总时长: 包含1.0和2.0两个版本，总时长超1000小时
+  使用该数据集的典型模型: INDEMIND
+  数据格式: HuggingFace HDF5（多具身遥操作，107K条轨迹，Franka/天工/Cobot Magic/UR-5e）
+  数据用途分类: 预训练数据
+  分类备注: 大规模多具身数据（总时长超1,000小时，多版本），INDEMIND基座模型预训练
