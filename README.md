@@ -2,7 +2,7 @@
 
 > **A community-driven open dataset catalog for Embodied AI, Robot Learning and Vision-Language-Action research.**
 
-**具身智能开放数据集知识库**：将数据集从传统 Excel 清单升级为结构化、可验证、可动态更新、可社区贡献的开放数据集 Catalog。
+**具身智能开放数据集知识库**：系统性梳理与跟踪具身智能领域开源数据集。
 
 
 ## 🧱 Architecture
@@ -48,14 +48,7 @@ data/datasets/<dataset-id>.yaml
 
 **Source × Modality × Embodiment × Task × Environment × Application × Availability × License**
 
-同时保留原始中文字段：
 
-```yaml
-legacy:
-  ...
-```
-
-因此 V2.0 是“结构化升级”，而不是重新人工抄录一遍数据。
 
 ## 🤝 Community Contribution
 
@@ -93,7 +86,6 @@ data/datasets/<dataset-id>.yaml
 5. 更新统计；
 6. 导出 Excel。
 
-因此以后新增一个数据集，不需要人工维护多个表格。
 
 ## 📐 Taxonomy
 
@@ -115,27 +107,13 @@ data/taxonomy.yaml
 - License
 - Data Format
 
-## ⚠️ Migration Note
-
-本次迁移中的部分结构化字段是根据原始中文字段进行**规则化映射**，例如 Task、Environment、Modality、Embodiment。
-
-这些字段应视为 **V2.0 初始标签**，而不是对原始资料的二次事实认定。
-
-每条 Dataset Card 都保留：
-
-```yaml
-notes: ...
-legacy: ...
-```
-
-建议后续由维护者依据官方论文、项目页和数据集页面逐条复核。
 
 ## 📖 Citation
 
 ```bibtex
 @misc{embodied_ai_open_datasets,
   title        = {Embodied AI Open Datasets},
-  author       = {AIIA / CAICT Embodied AI Benchmark Team},
+  author       = {CAICT EAI Bench Team},
   year         = {2026},
   howpublished = {GitHub repository},
   note         = {Community-driven catalog of open datasets for Embodied AI}
